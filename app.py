@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 
 st.title("Q&A with PDF Support")
 
-os.environ['GOOGLE_API_KEY'] = "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"  
+os.environ['GOOGLE_API_KEY'] = "*****************"  
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 model = genai.GenerativeModel('gemini-pro')
